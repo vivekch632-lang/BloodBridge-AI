@@ -1,0 +1,28 @@
+{
+    "model_name": "BloodBridge Random Forest Donor Matching Model",
+    "model_type": "RandomForestClassifier",
+    "dataset_type": "Synthetic prototype training data",
+    "total_samples": 12000,
+    "training_samples": 9600,
+    "testing_samples": 2400,
+    "accuracy": 0.9496,
+    "precision": 0.9269,
+    "recall": 0.9323,
+    "f1_score": 0.9296,
+    "features": [
+        "donor_blood_group",
+        "recipient_blood_group",
+        "donor_age",
+        "donor_gender",
+        "donor_available",
+        "distance_km",
+        "estimated_travel_minutes",
+        "days_since_last_donation",
+        "donation_eligible",
+        "urgency",
+        "units_required",
+        "donor_city",
+        "recipient_city"
+    ],
+    "safety_note": "ABO/Rh compatibility must remain a separate hard safety filter. The ML model must not override blood-bank compatibility decisions."
+}

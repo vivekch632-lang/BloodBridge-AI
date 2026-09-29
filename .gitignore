@@ -1,0 +1,29 @@
+# Node dependencies
+node_modules/
+Frontend/node_modules/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Trained model files
+*.joblib
+*.pkl
+
+# Build output
+dist/
+Frontend/dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
